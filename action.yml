@@ -1,5 +1,5 @@
 name: VibeFix sign-up check
-description: After each deploy, an AI agent signs up to your live app like a new user and reports whether a new user can get in.
+description: Our AI agent fixes what breaks in your live app, on request. This Action only runs the free check after each deploy.
 author: VibeFix
 branding:
   icon: user-check
