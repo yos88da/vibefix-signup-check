@@ -1,0 +1,32 @@
+name: VibeFix sign-up check
+description: After each deploy, an AI agent signs up to your live app like a new user and reports whether a new user can get in.
+author: VibeFix
+branding:
+  icon: user-check
+  color: purple
+inputs:
+  url:
+    description: The public https address of your live app. Defaults to the deployment's URL on a deployment_status event.
+    required: false
+  fail-on-broken:
+    description: Fail the job when a new user cannot sign up.
+    required: false
+    default: 'false'
+  comment:
+    description: Post the result on the pull request (or the commit).
+    required: false
+    default: 'true'
+  github-token:
+    description: Token used to post the comment.
+    required: false
+    default: ${{ github.token }}
+outputs:
+  signup:
+    description: yes, no, none (the app has no sign-up) or unknown.
+  problem-count:
+    description: How many problems a new user would hit.
+  result-url:
+    description: The result page.
+runs:
+  using: node24
+  main: index.js
