@@ -1,5 +1,5 @@
-name: VibeFix sign-up check
-description: Our AI agent fixes what breaks in your live app, on request. This Action only runs the free check after each deploy.
+name: "VibeFix: free check on every deploy"
+description: This Action runs a free check after each deploy. Want a problem fixed in your code? Ask our AI agent at vibe-fixer.com.
 author: VibeFix
 branding:
   icon: user-check

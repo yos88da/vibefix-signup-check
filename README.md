@@ -1,10 +1,8 @@
-# VibeFix: get what breaks fixed, starting with a free check after each deploy
+# VibeFix: free check on every deploy
 
-Our AI agent fixes what breaks in your live app, on request. This Action only runs the free check after each deploy.
+This Action runs a free check after each deploy. Want a problem fixed in your code? Ask our AI agent at vibe-fixer.com.
 
-We check for free and fix for money. Login, emails, payments, APIs, integrations, front end or back end: our AI agent finds the cause, fixes it in your code and re-checks your live app.
-
-This Action runs the free check after each deploy: an AI agent signs up to your live app like a brand-new user, with a real inbox, and reports on the pull request whether a new user can get in.
+On each check, an AI agent signs up to your live app like a brand-new user, with a real inbox, and reports on the pull request whether a new user can get in.
 
 ```
 ### VibeFix sign-up check: `your-app.example.com`
