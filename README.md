@@ -89,4 +89,4 @@ Any other address is refused, and nothing is checked.
 - **Links:** the result and screenshot links are unguessable public links.
 - **Protected previews:** previews behind a login (for example, Vercel deployment protection) can't be checked. Use the public address.
 
-[Privacy](https://vibe-fixer.com/privacy) · [Terms](https://vibe-fixer.com/terms) · [help@vibe-fixer.com](mailto:help@vibe-fixer.com)
+[VibeFix for Shopify stores](https://vibe-fixer.com/stores) · [Free Shopify accessibility checker](https://vibe-fixer.com/tools/shopify-accessibility-checker) · [Privacy](https://vibe-fixer.com/privacy) · [Terms](https://vibe-fixer.com/terms) · [help@vibe-fixer.com](mailto:help@vibe-fixer.com)
